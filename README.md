@@ -76,6 +76,8 @@ where repCity = 'Sydney'
 
 ![](https://raw.githubusercontent.com/benjaco-edu/db-assignment-7-normalform/master/board.jpg)
 
+The red paths is the paths there has to be taken to find "Handji Gifts& Co", the read < and > is the compersions there has to be executed to find the item.
+
 We also tried to see how the data would have looked like on a read harddrive with 4k pages.
 
 By running the following sql-statement, the actual byte-size of the customerName is calculated. This calculations reveals that all 10 customernames would in fact fit on a single page. This would make the drawing uninteressting, so in the follow drawing it has been decided that the page split will be be 3 -(4-3-3)-(data). 
