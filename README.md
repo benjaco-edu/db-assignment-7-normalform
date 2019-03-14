@@ -93,6 +93,6 @@ with my_cust as
 select *,  sum(le) over(order by customerName) from (select *, length(customerName) as le
 from my_cust
 where repCity = 'Sydney' order by customerName) as sub;
-´´´
+```
 
 ![](https://raw.githubusercontent.com/benjaco-edu/db-assignment-7-normalform/master/pages.png)
